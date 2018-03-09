@@ -1,0 +1,13 @@
+	body{
+	font-family:"arial";
+	color:gainsboro;
+	font-size:16px;
+	background-color:#333333;
+	}
+.br{
+	border-radius:10px;
+}
+.form{
+	width:600px;
+	height:84px;
+}
