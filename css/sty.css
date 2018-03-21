@@ -3,6 +3,7 @@
 	color:gainsboro;
 	font-size:16px;
 	background-color:#333333;
+	text-align:center;
 	}
 .br{
 	border-radius:10px;
@@ -10,4 +11,10 @@
 .form{
 	width:600px;
 	height:84px;
+}
+hr{
+	width: 550px; 
+	height:5px;
+	border:none;
+	border-top:1px solid #555555;"
 }
