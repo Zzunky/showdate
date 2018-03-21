@@ -4,30 +4,26 @@
 <head>
 <meta name="renderer" content="webkit"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	
-	
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
 <script type="text/javascript" src="js/date.js"></script>
-
 <link type="text/css" rel="stylesheet" href="css/sty.css">
 </head>
 
-
 <body onload="showDate()" >
 <div class="text-center">
-	<br /><br />
-   <div id="txt1"></div>
-   <div id="txt2"></div>
+<br /><br />
+<div id="txt1"></div>
+<div id="txt2"></div>
 </div>
 <br/><br/>
 <hr style="width: 550px; height:5px;border:none;border-top:1px solid #555555;" />
 <br /><br />
 <form onsubmit="submitFun()" class="text-center">
-	<textarea id="textArea1" onkeyup="checkLength(this)" class="form br" style="color: #000000;"></textarea><br />
-	<br />
-	 <span>剩余字数：<span id="remain" style="color:#28A4C9">20</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
-	 <input  id="submit_bt" type="submit" value="Submit" style="color: #FFFFFF;" class="btn-primary"/>
+<textarea id="textArea1" onkeyup="checkLength(this)" class="form br" style="color: #000000;"></textarea><br />
+<br />
+<span>剩余字数：<span id="remain" style="color:#28A4C9">20</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<input  id="submit_bt" type="submit" value="Submit" style="color: #FFFFFF;" class="btn-primary"/>
 </form>
 </body>
 </html>
